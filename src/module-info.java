@@ -1,0 +1,3 @@
+module Polar {
+    requires spigot;
+}

@@ -1,0 +1,12 @@
+name: Polar
+main: me.tehcn.polar.Polar
+version: 1.0-beta
+description: Polar adds brand new commands and custom items for the PolarExplosions Minecraft server
+
+commands:
+  polar:
+    description: The main command for Polar
+    usage: "Usage /polar <test|help>"
+  item:
+    description: Get any item from Polar
+    usage: "Usage /item <name>"
