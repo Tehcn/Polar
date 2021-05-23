@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Polar:jar">
-    <output-path>$PROJECT_DIR$/../../Spigot-1.16.5-Dev-Server/plugins</output-path>
+  <artifact type="jar" build-on-make="true" name="Polar:jar">
+    <output-path>$PROJECT_DIR$/dist</output-path>
     <root id="archive" name="Polar.jar">
       <element id="module-output" name="Polar" />
       <element id="extracted-dir" path="$PROJECT_DIR$/spigot-1.16.5.jar" path-in-jar="/" />
