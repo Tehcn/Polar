@@ -3,7 +3,7 @@
 _Simply a general server plugin_
 
 ## Features
-
+<pre>
 Commands:
     - /polar
         - Description: the main command for the Polar plugin
@@ -39,5 +39,4 @@ Commands:
     - /ci
         - Description: Clears your inventory, or the inventory of another player
         - Usage: /ci [player]
-        
-        
+</pre>
