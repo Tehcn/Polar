@@ -2,11 +2,31 @@ name: Polar
 main: me.tehcn.polar.Polar
 version: 1.0-beta
 description: Polar adds brand new commands and custom items for the PolarExplosions Minecraft server
+api-version: 1.16
 
 commands:
   polar:
     description: The main command for Polar
-    usage: "Usage /polar <test|help>"
+    usage: "Usage: /polar <test|help>"
   item:
     description: Get any item from Polar
-    usage: "Usage /item <name>"
+    usage: "Usage: /item <name>"
+  heal:
+    description: Heals the target player
+    usage: "Usage: /heal [target]"
+  feed:
+    description: Feeds the target player
+    usage: "Usage: /feed [target]"
+  telekinesis:
+    description: Gives a drill with the telekinesis enchant on it
+    usage: "Usage: /telekinesis"
+  isop:
+    description: Checks is a player is an operator
+    usage: "Usage: /isop [name]"
+    aliases: [opped, isopped, iop, iopped, amiop, amiopped]
+  fly:
+    description: Gives a player the power of flight
+    usage: "Usage: /fly [name]"
+  ci:
+    description: Clears a player's inventory
+    usage: "Usage: /ci [name]"

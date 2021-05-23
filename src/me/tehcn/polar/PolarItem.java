@@ -19,7 +19,9 @@ public class PolarItem {
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
         item.setItemMeta(meta);
-        item.addUnsafeEnchantments(enchantments);
+        if (!enchantments.isEmpty() || !enchantments.equals(null)) {
+            item.addUnsafeEnchantments(enchantments);
+        }
         this.item = item;
     }
 
